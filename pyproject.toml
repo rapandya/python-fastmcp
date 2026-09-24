@@ -1,13 +1,16 @@
 [project]
 name = "python-fastmcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python Fastmcp samples and tutorials"
 readme = "README.md"
 authors = [
     { name = "Ravi Pandya", email = "ravipandya1229@gmail.com" }
 ]
 requires-python = ">=3.14.4"
-dependencies = []
+dependencies = [
+    "fastmcp>=4.0.9",
+    "mcp[all]>=2.2.0",
+]
 
 [project.scripts]
 python-fastmcp = "python_fastmcp:main"
